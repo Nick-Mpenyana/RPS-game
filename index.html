@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  Score
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <!-- Score
   Rules
 
   You Picked
@@ -17,21 +29,51 @@
   You Win
   You Lose
 
-  Play Again
+  Play Again -->
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="game-title">
+          <h5>ROCK</h5>
+          <h5>PAPER</h5>
+          <h5>SCISSORS</h5>
+          <h5>LIZARD</h5>
+          <h5>SPOCK</h5>
+        </div>
+        <div class="score-board">
+          <h6 class="score-text">score</h6>
+          <h6 class="score-num">12</h6>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <img class="pentagon" src="./images/bg-pentagon.svg" alt="" />
+      <div class="selections-container">
+      <div class="rock-tainer">
+        <img class="rock" src="./images/icon-rock.svg" alt="">
+      </div>
+      <div class="pape-tainer">
+        <img class="Paper" src="./images/icon-paper.svg" alt="">
+      </div>
+      <div class="scis-tainer">
+        <img class="rock" src="./images/icon-scissors.svg" alt="">
+      </div>
+      <div class="liza-tainer">
+        <img class="rock" src="./images/icon-lizard.svg" alt="">
+      </div>
+      <div class="spoc-tainer">
+        <img class="rock" src="./images/icon-spock.svg" alt="">
+      </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <button class="rules-btn">rules</button>
+    </footer>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
